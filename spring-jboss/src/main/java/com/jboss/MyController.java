@@ -9,6 +9,8 @@ public class MyController {
 	
 	@GetMapping("/welcome")
 	public String getWelcomeMessage() {
-	return "Running in WildFly/Jboss server";	
+	return "Running in WildFly/Jboss server and working fine";
+	
+	
 	}
 }
